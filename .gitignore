@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# 训练产物与数据（体积大，不入库）
+datasets/
+exp*/
+logs/
+tmp/
+tmp_dream/
+*.tar
+*.npz
+*.pth
+*.pt
+
+# 虚拟环境
+venv/
+.venv/
+env/
